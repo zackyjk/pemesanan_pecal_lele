@@ -1,0 +1,33 @@
+name: pesan_peca_lele
+description: Aplikasi pemesanan pecal lele.
+
+# Batasan versi SDK Dart
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  qr_flutter: ^4.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/barcode3.jpeg
+
+
+  # Menghapus bagian asset jika tidak digunakan
+  # assets:
+  #   - assets/images/
+
+  # Menghapus bagian fonts jika tidak digunakan
+  # fonts:
+  #   - family: Roboto
+  #     fonts:
+  #       - asset: fonts/Roboto-Regular.ttf
+  #       - asset: fonts/Roboto-Bold.ttf
+  #         weight: 700
